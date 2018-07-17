@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TASK APPLICATION</string>
+
+    <string name="slide_1_title">Fetch of Image</string>
+    <string name="slide_1_desc">Fetch of images have done through RxJava and Retrofit.</string>
+
+    <string name="slide_2_title">Display of images</string>
+    <string name="slide_2_desc">Display of images have use Picasso library</string>
+
+    <string name="slide_3_title">Floating Button</string>
+    <string name="slide_3_desc">To extract the contact list of the user from the phone</string>
+
+
+    <string name="play_again_desc">Previous</string>
+    <string name="play_again">Previous</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_welcome">Home Screen</string>
+</resources>
