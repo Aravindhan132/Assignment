@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onCompleted() {
-                        Snackbar snackbar = Snackbar.make(findViewById(android.R.id.content), ".Zip has been saved to the Root Directory of Your Phone", Snackbar.LENGTH_LONG);
+                        Snackbar snackbar = Snackbar.make(findViewById(android.R.id.content), "Data has Successfully Stored in Root Folder", Snackbar.LENGTH_LONG);
                         snackbar.show();
 
                     }
