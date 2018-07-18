@@ -1,24 +1,17 @@
 # Assignment
 [Problem Statement]
-
-Implement a simple 2 screen application. The app should parse the JSON files provided with the test and display the info as described below. The application must use a proper architecture chosen by the developer. The developer must be able to explain his choice.
-
-Model:
-The application should pull the JSON from the url provided. The data retrieved should then be cached someway with an expiry date of 1 hour (the cache requirement is just for the gameData.json). The application will then use that data to populate the views.
-
-Screen 1:
-It should display a list of items using the value of data#name as the label. On clicking an item it should take you to screen 2 which will display the details of the game.
-
-Screen 2:
-It should display the name, jackpot and date of the game, using best practices for locale formatting. Use currency provided in JSON to format #jackpot.
-
-Both the screens must have a header showing an avatar image, player name, balance and last login date which are retrieved by requesting the playerInfo.json. 
-In screen 2, last login date must be hidden.
-Send us the completed source code.
-
-[API Guide]
-Game URL: 
-https://api.myjson.com/bins/11j2gr  (gameData.json)
-Header info URL: 
-https://api.myjson.com/bins/w660r (playerInfo.json)
-
+Part 1:
+ 
+Api : http://www.androidbegin.com/tutorial/jsonparsetutorial.txt
+Fetch of images should be done through RxJava and Retrofit. Please note that the interview will be disqualified if you dont use these libraries
+Display of images should use Glide or Picasso or Fresco libraries. Please note that the interview will be disqualified if you dont use one of these libraries
+Make use of a recyclerview to display these images.
+The picture should become fullscreen on click and then when pressing back button, will go back to multiple images view.
+ 
+Part 2 :
+ 
+Give a button to extract the contact list of the user from the phone. Ask for "runtime permissions" for contact list access.
+Create a CSV format from the contact list. Do this task in the background using rxjava "observable". Please note that the interview will be disqualified if you dont use these libraries.
+Zip the CSV and save it in the storage of the user.
+When the zip of the CSV is completed and saved (all of this happens in background) - show a "snackbar" to the user informing him that operation has completed.
+ 
